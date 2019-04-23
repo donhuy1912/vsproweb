@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="_6255iSqIDL7_course_id" version="1.0" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
+      <general>
+        <title>
+          <langstring xml:lang="x-none">Chang Duong Da Buoc Qua</langstring>
+        </title>
+      </general>
+      <lifecycle>
+        <version>
+          <langstring xml:lang="x-none">1</langstring>
+        </version>
+        <status>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">Final</langstring>
+          </value>
+        </status>
+      </lifecycle>
+      <metametadata>
+        <metadatascheme>ADL SCORM 1.2</metadatascheme>
+      </metametadata>
+      <educational>
+        <typicallearningtime>
+          <datetime>PT0H0M0S</datetime>
+        </typicallearningtime>
+      </educational>
+      <rights>
+        <cost>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </cost>
+        <copyrightandotherrestrictions>
+          <source>
+            <langstring xml:lang="x-none">LOMv1.0</langstring>
+          </source>
+          <value>
+            <langstring xml:lang="x-none">yes</langstring>
+          </value>
+        </copyrightandotherrestrictions>
+      </rights>
+    </lom>
+  </metadata>
+  <organizations default="Chang_Duong_Da_Buoc_Qua_ORG">
+    <organization identifier="Chang_Duong_Da_Buoc_Qua_ORG">
+      <title>Chang Duong Da Buoc Qua</title>
+      <item identifier="timer_SCO" isvisible="true" identifierref="__6255iSqIDL7_course_id_RES">
+        <title>Chang Duong Da Buoc Qua</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="__6255iSqIDL7_course_id_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
+      <file href="story_content/thumbnail.jpg" />
+      <file href="story_content/Shape5prZ6Nqx7Fv.swf" />
+      <file href="story_content/video_6egT96GBxVe_22_48_406x228.mp4" />
+      <file href="mobile/video_6egT96GBxVe_22_48_406x228.jpg" />
+      <file href="story_content/6bUj2xkNOWN_80_DX158_DY158.swf" />
+      <file href="mobile/6bUj2xkNOWN_80_DX158_DY158_CX118_CY48.png" />
+      <file href="story_content/Shape6jFnPUlcJhR.swf" />
+      <file href="story_content/video_60FIykMARDF_22_48_406x228.mp4" />
+      <file href="mobile/video_60FIykMARDF_22_48_406x228.jpg" />
+      <file href="story_content/6cIB1zu6rA2_22050_48_0.mp3" />
+      <file href="story_content/5pWNW59petY_22050_48_0.mp3" />
+      <file href="story_content/62yasytIfDY_22050_48_0.mp3" />
+      <file href="story_content/6nHu2D0W1Py_80_DX316_DY316.swf" />
+      <file href="mobile/6nHu2D0W1Py_80_DX316_DY316_CX234_CY237.png" />
+      <file href="story_content/6WeiZsoLZoZ_22050_48_0.mp3" />
+      <file href="story_content/62G7zg1uywE_80_DX316_DY316.swf" />
+      <file href="mobile/62G7zg1uywE_80_DX316_DY316_CX232_CY235.png" />
+      <file href="story_content/6SQXvv9PJcG_22050_48_0.mp3" />
+      <file href="story_content/6Txx26QHBbw_80_DX316_DY316.swf" />
+      <file href="mobile/6Txx26QHBbw_80_DX316_DY316_CX232_CY235.png" />
+      <file href="story_content/69sf97jCj8T_22050_48_0.mp3" />
+      <file href="story_content/6gbmBRh4jMU_80_DX316_DY316.swf" />
+      <file href="mobile/6gbmBRh4jMU_80_DX316_DY316_CX232_CY235.png" />
+      <file href="story_content/5VcI2Mg4TBh_22050_48_0.mp3" />
+      <file href="story_content/6INsDAHPEhJ_22050_48_0.mp3" />
+      <file href="story_content/5zGhe2jhBlx_22050_48_0.mp3" />
+      <file href="story_content/5zAVh5z976u_22050_48_0.mp3" />
+      <file href="story_content/5vMnU5vWiKT_22050_48_0.mp3" />
+      <file href="story_content/5g68ry1sEy6_22050_48_0.mp3" />
+      <file href="story_content/63OZmp07Az9_22050_48_0.mp3" />
+      <file href="story_content/6RAGnfkwUiS_22050_48_0.mp3" />
+      <file href="story_content/6A8KKUpEZvS_22050_48_0.mp3" />
+      <file href="story_content/6Azhgtxdf6k_22050_48_0.mp3" />
+      <file href="story_content/6OqTYGLkH5R_22050_48_0.mp3" />
+      <file href="story_content/6A6TLXdroo7_22050_48_0.mp3" />
+      <file href="story_content/Shape5l5J6JkUv6V.swf" />
+      <file href="story_content/video_60nZrEr5A0S_22_48_406x228.mp4" />
+      <file href="mobile/video_60nZrEr5A0S_22_48_406x228.jpg" />
+      <file href="meta.xml" />
+      <file href="story_content/FontFactory.swf" />
+      <file href="story_content/fonts.swf" />
+      <file href="story_content/frame.xml" />
+      <file href="story_content/frame.json" />
+      <file href="story_content/user.js" />
+      <file href="story.swf" />
+      <file href="story_content/frame.swf" />
+      <file href="story_content/slides/5ZEPicHubY4.swf" />
+      <file href="story_content/slides/5aHNkXy0bWH.swf" />
+      <file href="story_content/slides/5aLvQpyUhhD.swf" />
+      <file href="story_content/slides/6CIhqgKYvhw.swf" />
+      <file href="story_content/slides/5UsPTks1r7m.swf" />
+      <file href="story_content/slides/6QNHo9TsmJd.swf" />
+      <file href="story_content/slides/6VKUcOHUmWL.swf" />
+      <file href="story_content/slides/5sGx2w1SzjM.swf" />
+      <file href="story_content/slides/63BDfKWpFa1.swf" />
+      <file href="story_content/slides/6pDhXyV574q.swf" />
+      <file href="story_content/data.swf" />
+      <file href="html5/data/css/output.min.css" />
+      <file href="html5/data/js/5aHNkXy0bWH.js" />
+      <file href="html5/data/js/5aLvQpyUhhD.js" />
+      <file href="html5/data/js/5sGx2w1SzjM.js" />
+      <file href="html5/data/js/5UsPTks1r7m.js" />
+      <file href="html5/data/js/5ZEPicHubY4.js" />
+      <file href="html5/data/js/63BDfKWpFa1.js" />
+      <file href="html5/data/js/6CIhqgKYvhw.js" />
+      <file href="html5/data/js/6pDhXyV574q.js" />
+      <file href="html5/data/js/6QNHo9TsmJd.js" />
+      <file href="html5/data/js/6VKUcOHUmWL.js" />
+      <file href="html5/data/js/data.js" />
+      <file href="html5/data/js/frame.js" />
+      <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/scripts/app.min.js" />
+      <file href="html5/lib/stylesheets/main.min.css" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-bold.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-light.woff" />
+      <file href="html5/lib/stylesheets/mobile-fonts/open-sans-regular.woff" />
+      <file href="story.html" />
+      <file href="story_flash.html" />
+      <file href="story_html5.html" />
+      <file href="story_content/blank.html" />
+      <file href="story_content/story.js" />
+      <file href="index_lms.html" />
+      <file href="index_lms_html5.html" />
+      <file href="index_lms_flash.html" />
+      <file href="lms/AICCComm.html" />
+      <file href="lms/AICCFunctions.js" />
+      <file href="lms/API.js" />
+      <file href="lms/APIConstants.js" />
+      <file href="lms/blank.html" />
+      <file href="lms/browsersniff.js" />
+      <file href="lms/Configuration.js" />
+      <file href="lms/goodbye.html" />
+      <file href="lms/lms.js" />
+      <file href="lms/LMSAPI.js" />
+      <file href="lms/NONEFunctions.js" />
+      <file href="lms/SCORM2004Functions.js" />
+      <file href="lms/SCORMFunctions.js" />
+      <file href="lms/UtilityFunctions.js" />
+    </resource>
+  </resources>
+</manifest>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Udema a modern educational site template">
+    <meta name="author" content="Ansonika">
+    <title>VS-PRO | Visual Programming Learning</title>
+    {% load static %}
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="{% static 'homepage/img/favicon.ico' %}" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="{% static 'homepage/img/apple-touch-icon-57x57-precomposed.png' %}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="{% static 'homepage/img/apple-touch-icon-72x72-precomposed.png' %}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="{% static 'homepage/img/apple-touch-icon-114x114-precomposed.png' %}">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="{% static 'homepage/img/apple-touch-icon-144x144-precomposed.png' %}">
+
+    <!-- BASE CSS -->
+    <link href="{% static 'homepage/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'homepage/css/style.css' %}" rel="stylesheet">
+	<link href="{% static 'homepage/css/vendors.css' %}" rel="stylesheet">
+	<link href="{% static 'homepage/css/icon_fonts/css/all_icons.min.css' %}" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="{% static 'homepage/css/custom.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="login_bg">
+	
+	<nav id="menu" class="fake_menu"></nav>
+	
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div>
+	<!-- End Preload -->
+	
+	<div id="login">
+		<aside style="margin-left: 550px;margin-right: 550px">
+			<figure>
+				<a href="{% url 'homepage:index' %}"><img src="{% static 'homepage/img/logo_2x.png' %}" width="149" height="42" data-retina="true" alt=""></a>
+			</figure>
+			  <form  method = "POST">
+			  {% csrf_token %}
+				<div class="access_social">
+				
+					{% comment %} <a href="#0" class="social_bt linkedin">Đăng nhập với Linkedin</a> {% endcomment %}
+				</div>
+				<div class="divider"><span>Hoặc</span></div>
+				<div class="form-group">
+					{% for message in messages %}
+					<div class="alert alert-success" style="color: #f8f9fa; background-color: #dc3545;">
+						<a class="close" data-dismiss="alert">×</a>
+							{{ message }}
+					</div>
+					{% endfor %}
+					<span class="input">
+					<input class="input_field" type="text" autocomplete="off" name="user">
+						<label class="input_label">
+						<span class="input__label-content">Tên đăng nhập</span>
+					</label>
+					</span>
+
+					<span class="input">
+					<input class="input_field" type="password" autocomplete="new-password" name="pass" id="password1">
+						<label class="input_label">
+						<span class="input__label-content">Mật khẩu</span>
+					</label>
+					</span>
+				<a  class="icon-eye-7" onclick="showpass()" id="show" style="display: show;font-size: 9pt;color:dodgerblue">Hiện mật khẩu</a>
+				<a  class="icon-eye-off-1" onclick="hidepass()" id="hide" style="display: none;font-size: 9pt;color:dodgerblue">Ẩn mật khẩu</a>
+				<br>
+				<script language="javascript">
+						var check = 0;
+						var pass = document.getElementById("password1");
+						var show=document.getElementById("show");
+						var hide=document.getElementById("hide");
+ 						function showpass(){
+							pass.type="text";
+							show.style.display = "none";
+							hide.style.display = "inline";
+						};
+						function hidepass(){
+							pass.type="password";
+							show.style.display = "inline";
+							hide.style.display = "none";
+						};
+				</script>
+				
+				</div>
+				<button type="submit" class="btn_1 rounded full-width add_top_60"> Đăng nhập </button>
+				<div class="text-center add_top_10">Bạn chưa có tài khoản? <strong><a href="{% url 'homepage:register' %}">Đăng Ký!</a></strong></div>
+				<small><a href="{% url 'homepage:forgotpass' %}" style="padding-left: 100px;font-size:9pt">Quên Mật Khẩu?</a></small>
+			</form>
+			<div class="copy">©2019</div>
+		</aside>
+	</div>
+	<!-- /login -->
+		
+	<!-- COMMON SCRIPTS -->
+    <script src="{% static 'homepage/js/jquery-2.2.4.min.js' %}"></script>
+    <script src="{% static 'homepage/js/common_scripts.js' %}"></script>
+    <script src="{% static 'homepage/js/main.js' %}"></script>
+	<script src="{% static 'homepage/assets/validate.js' %}"></script>	
+  
+</body>
+</html>
